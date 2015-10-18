@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="WeatherApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+            <TextBlock Text="Погода в городе " />
+            <TextBlock Name="City" Text="None " />
+            <TextBlock Name="Country" Text="XX" />
+        </StackPanel>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="599,372,0,0" VerticalAlignment="Top" Click="button_Click"/>
+
+    </Grid>
+</Page>
